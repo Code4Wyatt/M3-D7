@@ -45,6 +45,14 @@
   </head>
 
   <body>
+    <input id="search" type="search" onkeyup="search(this.value)" />
+    <select name="userInfoOptions" id="user-info-select">
+      <option value="">--Please choose an option--</option>
+      <option value="Name">Name</option>
+      <option value="Username">Username</option>
+      <option value="Email">Email</option>
+    </select>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
